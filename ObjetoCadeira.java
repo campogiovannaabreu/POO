@@ -68,10 +68,11 @@ public class ObjetoCadeira {
             System.out.println("-------- CADEIRA " + (i + 1) + " --------");
             System.out.println("Modelo: " + Cadeira1.getModelo());
             System.out.println("Cor: " + Cadeira1.getCor());
-            System.out.println("Velocidade: " + Cadeira1.getanoDeFabricacao() + " Km/h");
-            System.out.println("Quantidade de Assentos: " + Cadeira1.getTecido());
+            System.out.println("Entre com o ano de fabricação: " + Cadeira1.getanoDeFabricacao());
+            System.out.println("Entre com o tecido da cadeira: " + Cadeira1.getTecido());
             System.out.println("-------------------------");
 
         }
     }
+
 }
